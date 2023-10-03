@@ -25,7 +25,7 @@
             </RadioButton.RenderTransform>
 
         </RadioButton>
-        <TextBlock HorizontalAlignment="Left" Margin="294,162,0,0" TextWrapping="Wrap" Text="DESARROLLO DE INERFACES" VerticalAlignment="Top" Height="18" Width="159"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,93,0,0" TextWrapping="Wrap" Text="DESARROLLO DE INERFACES" VerticalAlignment="Top" Height="124" Width="800" FontSize="24" FontFamily="Bahnschrift SemiBold" LineHeight="24"/>
 
 
     </Grid>
