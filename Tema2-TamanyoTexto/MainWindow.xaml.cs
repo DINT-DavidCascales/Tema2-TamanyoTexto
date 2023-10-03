@@ -23,6 +23,20 @@ namespace Tema2_TamanyoTexto
         public MainWindow()
         {
             InitializeComponent();
+            pequeño.IsChecked = true;
+        }
+       
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            String rBoton = (sender as RadioButton).Tag.ToString();
+
+            if (rBoton == "pequeño")
+                texto.FontSize = 36;
+            else if (rBoton == "mediano")
+                texto.FontSize = 48;
+            else
+                texto.FontSize = 72;
         }
     }
 }

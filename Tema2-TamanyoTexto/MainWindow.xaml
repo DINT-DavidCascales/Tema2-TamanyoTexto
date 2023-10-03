@@ -7,25 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <RadioButton Content="Pequeño" HorizontalAlignment="Left" Margin="61,295,0,0" VerticalAlignment="Top">
+        <RadioButton x:Name="pequeño" Tag="pequeño" Content="Pequeño" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="61,295,0,0" VerticalAlignment="Top">
             <RadioButton.RenderTransform>
                 <ScaleTransform ScaleX="2" ScaleY="2"></ScaleTransform>
             </RadioButton.RenderTransform>
 
         </RadioButton>
-        <RadioButton Content="Mediano" HorizontalAlignment="Left" Margin="350,295,0,0" VerticalAlignment="Top">
+        <RadioButton Tag="mediano" Content="Mediano" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="350,295,0,0" VerticalAlignment="Top">
             <RadioButton.RenderTransform>
                 <ScaleTransform ScaleX="2" ScaleY="2"/>
             </RadioButton.RenderTransform>
 
         </RadioButton>
-        <RadioButton Content="Grande" HorizontalAlignment="Left" Margin="602,295,0,0" VerticalAlignment="Top">
+        <RadioButton Tag="grande" Content="Grande" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="602,295,0,0" VerticalAlignment="Top">
             <RadioButton.RenderTransform>
                 <ScaleTransform ScaleX="2" ScaleY="2"/>
             </RadioButton.RenderTransform>
 
         </RadioButton>
-        <TextBlock HorizontalAlignment="Left" Margin="0,93,0,0" TextWrapping="Wrap" Text="DESARROLLO DE INERFACES" VerticalAlignment="Top" Height="124" Width="800" FontSize="24" FontFamily="Bahnschrift SemiBold" LineHeight="24"/>
+        <TextBlock x:Name="texto" HorizontalAlignment="Center" Margin="0,35,0,0" TextWrapping="Wrap" 
+                   Text="DESARROLLO DE INERFACES" VerticalAlignment="Top" 
+                   Height="231" Width="780" FontSize="24" 
+                   FontFamily="Bahnschrift SemiBold"
+                   TextAlignment="Center"/>
 
 
     </Grid>
